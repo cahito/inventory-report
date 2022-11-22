@@ -14,7 +14,11 @@ def data():
             "numero_de_serie": "Quinta série",
             "instrucoes_de_armazenamento": "Guarde em algum lugar apropriado",
         },
-        """O produto Produto teste fabricado em 22-11-2022 por Empresa teste com validade até 22-11-2023 precisa ser armazenado Guarde em algum lugar apropriado.""",
+        "O produto Produto teste"
+        " fabricado em 22-11-2022"
+        " por Empresa teste com validade"
+        " até 22-11-2023 precisa ser"
+        " armazenado Guarde em algum lugar apropriado.",
     ]
 
 
