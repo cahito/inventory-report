@@ -2,7 +2,6 @@ from inventory_report.reports.simple_report import SimpleReport
 
 
 class CompleteReport(SimpleReport):
-
     @classmethod
     def generate(cls, products):
         simple_report = super().generate(products)

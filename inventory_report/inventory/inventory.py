@@ -13,10 +13,10 @@ class Inventory:
         if path.endswith(".json"):
             relatorio = json.load(open(path, "r"))
             dados_relatorio = list(relatorio)
-        elif path.endswith('.xml'):
+        elif path.endswith(".xml"):
             with open(path) as file:
                 relatorio = xmltodict.parse(file.read())
-                dados_relatorio = relatorio['dataset']['record']
+                dados_relatorio = relatorio["dataset"]["record"]
         else:
             with open(path, encoding="utf-8") as file:
                 relatorio = csv.DictReader(file, delimiter=",", quotechar='"')
